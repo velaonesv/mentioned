@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mentioned: AI visibility tools, compared and priced</title><meta name="description" content="A free directory and price tracker for AI visibility tools that check what ChatGPT, Perplexity and Gemini say about a brand.">
+<style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,sans-serif;color:#1a1a1a;background:#fafaf8}
+header,main,footer{max-width:1100px;margin:auto;padding:0 20px}header{padding-top:40px}h1{font-size:2rem;margin:0}.sub{color:#555;max-width:680px}
+input{width:100%;padding:12px;font-size:1rem;border:1px solid #ccc;border-radius:8px;margin:16px 0}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:.92rem}th,td{text-align:left;padding:10px;border-bottom:1px solid #eee;vertical-align:top}th{cursor:pointer;background:#f2f2ee}
+td a{color:#111;font-weight:600}.src{font-size:.78rem;color:#777}
+.box{background:#fff;border:1px dashed #999;border-radius:10px;padding:18px;margin:28px 0}.sponsor{border:2px solid #1d6b3a}
+button{padding:10px 16px;border:0;border-radius:8px;background:#111;color:#fff;cursor:pointer}footer{color:#666;font-size:.85rem;padding:30px 20px}
+@media(max-width:700px){thead{display:none}tr{display:block;border-bottom:8px solid #fafaf8}td{display:block;border:0;padding:4px 10px}td:first-child{padding-top:12px}}
+</style></head><body>
+<header><h1>Mentioned</h1><p class="sub">A free directory and price tracker for AI visibility tools: software that checks whether ChatGPT, Perplexity, Gemini and other AI engines mention a brand, and what each vendor charges. Every price links to its source and shows the date it was checked.</p></header>
+<main>
+<section class="box sponsor" id="sponsor"><strong>Featured listing: $99/month.</strong> Vendors can be pinned at the top of the table with a "Featured" label. Featured status never changes the prices or data we show. Contact: <code>info@summabrand.com</code></section>
+<input id="q" placeholder="Filter by name, engine or price (e.g. Claude, free, $29)" aria-label="Filter">
+<table><thead><tr><th data-k="name">Tool</th><th data-k="price">Starting price</th><th data-k="engines">Engines covered</th><th>Checked / source</th></tr></thead><tbody id="list"></tbody></table>
+<p class="src">Prices change often. Some figures come from third-party comparisons, not directly from vendor pages; each row says which. Spot an error? Tell us and we'll re-check it.</p>
+<section class="box" id="newsletter"><strong>Price changes, weekly.</strong><p>Signup isn't live yet. Nothing you type here is stored or sent.</p>
+<form onsubmit="event.preventDefault();this.querySelector('p').textContent='Thanks. Signup is not live yet, so nothing was saved.'"><input type="email" placeholder="you@example.com" aria-label="Email"><button>Notify me</button><p></p></form></section>
+</main>
+<footer>Independent. Not affiliated with any vendor listed. Featured listings, when sold, will be clearly labeled.</footer>
+<script src="data.js"></script><script>
+const L=document.getElementById('list');let key='name';
+function r(){const q=document.getElementById('q').value.toLowerCase();L.innerHTML=TOOLS.filter(t=>(t.name+t.price+t.engines).toLowerCase().includes(q)).sort((a,b)=>a[key].localeCompare(b[key])).map(t=>`<tr><td><a href="${t.url}" target="_blank" rel="noopener">${t.name}</a></td><td>${t.price}</td><td>${t.engines}</td><td class="src">${t.checked}<br><a href="${t.source}" target="_blank" rel="noopener">${new URL(t.source).hostname}</a></td></tr>`).join('')}
+document.getElementById('q').oninput=r;document.querySelectorAll('th[data-k]').forEach(h=>h.onclick=()=>{key=h.dataset.k;r()});r();
+</script></body></html>
