@@ -98,7 +98,7 @@ const TOOLS=[
  {
   "name": "Nightwatch",
   "url": "https://nightwatch.io",
-  "price": "From EUR 79/mo",
+  "price": "From EUR 79/mo billed annually (EUR 948/yr)",
   "engines": "ChatGPT, Claude, Gemini, Perplexity, AI Mode, AI Overviews",
   "source": "https://nightwatch.io/pricing",
   "checked": "2026-10-14"
@@ -106,7 +106,7 @@ const TOOLS=[
  {
   "name": "Searchable",
   "url": "https://searchable.com",
-  "price": "$125/mo (annual)",
+  "price": "$125/mo billed annually",
   "engines": "ChatGPT, AI Overviews, Perplexity (+ paid add-ons: Copilot, DeepSeek, AI Mode, Gemini, Grok, Claude)",
   "source": "https://searchable.com/pricing",
   "checked": "2026-10-14"
@@ -114,7 +114,7 @@ const TOOLS=[
  {
   "name": "LLMrefs",
   "url": "https://llmrefs.com",
-  "price": "$79/mo (500 prompts; price per Arobis, not shown on vendor page)",
+  "price": "$79/mo (500 prompts; vendor lists as limited-time price)",
   "engines": "ChatGPT, AI Overviews, AI Mode, Gemini, Perplexity, Claude, Grok, Copilot, Meta AI, DeepSeek",
   "source": "https://llmrefs.com/pricing",
   "checked": "2026-10-14"
@@ -138,7 +138,7 @@ const TOOLS=[
  {
   "name": "Verified Tools",
   "url": "https://www.verifiedtools.info",
-  "price": "$39/quarter (~$13/mo)",
+  "price": "$39/mo",
   "engines": "ChatGPT, Claude, Perplexity, Gemini, AI Overviews",
   "source": "https://www.verifiedtools.info/blog/ai-visibility-tools-compared-2026",
   "checked": "2026-09-29"
@@ -148,13 +148,13 @@ const TOOLS=[
   "url": "https://dataforseo.com",
   "price": "$0.10/request + $0.001/row",
   "engines": "ChatGPT (US/EN)",
-  "source": "https://www.verifiedtools.info/blog/ai-visibility-tools-compared-2026",
-  "checked": "2026-09-29"
+  "source": "https://www.verifiedtools.info/pricing",
+  "checked": "2026-10-14"
  },
  {
   "name": "ZipTie",
   "url": "https://ziptie.dev",
-  "price": "From $42.75/mo (usage-based)",
+  "price": "From $42.75/mo (Starter preset; usage-based)",
   "engines": "ChatGPT, AI Overviews, Perplexity, AI Mode, Copilot, Bing AI Overview, Gemini",
   "source": "https://ziptie.dev/pricing",
   "checked": "2026-10-14"
@@ -202,7 +202,7 @@ const TOOLS=[
  {
   "name": "Rankability",
   "url": "https://www.rankability.com",
-  "price": "$97/mo",
+  "price": "$97/mo billed monthly",
   "engines": "11: ChatGPT, AI Mode, AI Overviews, Claude, Perplexity, Gemini, Grok, Copilot, Brave AI, DeepSeek, Meta AI",
   "source": "https://www.rankability.com/pricing",
   "checked": "2026-10-14"
@@ -226,7 +226,7 @@ const TOOLS=[
  {
   "name": "Geoptie",
   "url": "https://geoptie.com",
-  "price": "$49/mo ($41 annual)",
+  "price": "$41/mo billed annually ($490/yr)",
   "engines": "Any 4 of 7: ChatGPT, Claude, Perplexity, Gemini, Copilot, AI Mode, AI Overviews",
   "source": "https://geoptie.com/pricing",
   "checked": "2026-10-14"
