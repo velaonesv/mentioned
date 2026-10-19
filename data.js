@@ -5,7 +5,7 @@ const TOOLS=[
   "price": "Custom (Enterprise); free 7-day trial",
   "engines": "Up to 9 engines (Enterprise); trial: ChatGPT, Gemini, AI Overviews",
   "source": "https://www.tryprofound.com/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "ZeroRank",
@@ -13,7 +13,7 @@ const TOOLS=[
   "price": "$39/mo (2,400 answers)",
   "engines": "17 platforms incl. ChatGPT, Perplexity, Gemini, AI Overviews, Claude, Copilot, Grok, DeepSeek",
   "source": "https://zerorank.ai/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "Ahrefs Brand Radar",
@@ -109,7 +109,7 @@ const TOOLS=[
   "price": "$125/mo billed annually",
   "engines": "ChatGPT, AI Overviews, Perplexity (+ paid add-ons: Copilot, DeepSeek, AI Mode, Gemini, Grok, Claude)",
   "source": "https://searchable.com/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "LLMrefs",
@@ -117,7 +117,7 @@ const TOOLS=[
   "price": "$79/mo (500 prompts; vendor lists as limited-time price)",
   "engines": "ChatGPT, AI Overviews, AI Mode, Gemini, Perplexity, Claude, Grok, Copilot, Meta AI, DeepSeek",
   "source": "https://llmrefs.com/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "Otterly.AI",
@@ -133,7 +133,7 @@ const TOOLS=[
   "price": "$17/mo billed yearly (Essentials, credits extra); Pro $99/mo",
   "engines": "ChatGPT, Gemini, Perplexity, Claude, DeepSeek, Mistral, Grok, Copilot, AI Mode, AI Overviews +",
   "source": "https://rankscale.ai/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "Verified Tools",
@@ -205,7 +205,7 @@ const TOOLS=[
   "price": "$97/mo billed monthly",
   "engines": "11: ChatGPT, AI Mode, AI Overviews, Claude, Perplexity, Gemini, Grok, Copilot, Brave AI, DeepSeek, Meta AI",
   "source": "https://www.rankability.com/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "Bluefish AI",
@@ -229,7 +229,7 @@ const TOOLS=[
   "price": "$41/mo billed annually ($490/yr)",
   "engines": "Any 4 of 7: ChatGPT, Claude, Perplexity, Gemini, Copilot, AI Mode, AI Overviews",
   "source": "https://geoptie.com/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
  },
  {
   "name": "HubSpot AEO Grader",
@@ -245,6 +245,22 @@ const TOOLS=[
   "price": "$39/mo billed yearly ($49 month to month)",
   "engines": "Starter: ChatGPT, Google AI (Perplexity on Professional; Claude, Gemini on Scale)",
   "source": "https://www.frase.io/pricing",
-  "checked": "2026-10-15"
+  "checked": "2026-10-19"
+ },
+ {
+  "name": "Kradeos",
+  "url": "https://kradeos.ai",
+  "price": "Free plan (10 prompts); Starter £49/mo",
+  "engines": "ChatGPT, Gemini, AI Overviews (Claude, Perplexity, AI Mode on £149/mo Compete)",
+  "source": "https://kradeos.ai/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "name": "Onxeera",
+  "url": "https://onxeera.com",
+  "price": "Free plan; Starter $19/mo",
+  "engines": "ChatGPT, Perplexity, Gemini, Claude (prompt tracking); GEO score across 6 engines",
+  "source": "https://onxeera.com/pricing/",
+  "checked": "2026-10-19"
  }
 ];
