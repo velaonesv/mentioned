@@ -153,11 +153,11 @@ const TOOLS=[
  },
  {
   "name": "ZipTie",
-  "url": "https://ziptie.dev",
-  "price": "From $42.75/mo (Starter preset; usage-based)",
+  "url": "https://ziptie.ai",
+  "price": "From $25.65/mo billed monthly (Starter preset: 30 daily prompts, 3 engines; usage-based; annual billing -20% on prompts)",
   "engines": "ChatGPT, AI Overviews, Perplexity, AI Mode, Copilot, Bing AI Overview, Gemini",
-  "source": "https://ziptie.dev/pricing",
-  "checked": "2026-10-15"
+  "source": "https://ziptie.ai/pricing/",
+  "checked": "2026-10-23"
  },
  {
   "name": "Similarweb",
