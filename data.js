@@ -13,7 +13,7 @@ const TOOLS=[
   "price": "$39/mo (2,400 answers)",
   "engines": "17 platforms incl. ChatGPT, Perplexity, Gemini, AI Overviews, Claude, Copilot, Grok, DeepSeek",
   "source": "https://zerorank.ai/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  {
   "name": "Ahrefs Brand Radar",
@@ -109,7 +109,7 @@ const TOOLS=[
   "price": "$125/mo billed annually",
   "engines": "ChatGPT, AI Overviews, Perplexity (+ paid add-ons: Copilot, DeepSeek, AI Mode, Gemini, Grok, Claude)",
   "source": "https://searchable.com/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-10-26"
  },
  {
   "name": "LLMrefs",
@@ -262,5 +262,21 @@ const TOOLS=[
   "engines": "ChatGPT, Perplexity, Gemini, Claude (prompt tracking); GEO score across 6 engines",
   "source": "https://onxeera.com/pricing/",
   "checked": "2026-10-19"
+ },
+ {
+  "name": "Contentstack Canoe",
+  "url": "https://canoe.contentstack.com",
+  "price": "Free plan (1 brand, 20 prompts/mo); Growth $279/mo or $2,790/yr (limited-time launch price)",
+  "engines": "Free: ChatGPT, Gemini; Growth: ChatGPT, Gemini, Perplexity, Claude",
+  "source": "https://canoe.contentstack.com/pricing/",
+  "checked": "2026-10-26"
+ },
+ {
+  "name": "geoSurge",
+  "url": "https://geosurge.ai",
+  "price": "Free desktop app (runs on your own ChatGPT/Claude/Gemini subscription); API keys on demand; Enterprise custom",
+  "engines": "ChatGPT, Claude, Gemini (early support)",
+  "source": "https://geosurge.ai/",
+  "checked": "2026-10-26"
  }
 ];
