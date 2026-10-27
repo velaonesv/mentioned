@@ -106,10 +106,10 @@ const TOOLS=[
  {
   "name": "Searchable",
   "url": "https://searchable.com",
-  "price": "$125/mo billed annually",
-  "engines": "ChatGPT, AI Overviews, Perplexity (+ paid add-ons: Copilot, DeepSeek, AI Mode, Gemini, Grok, Claude)",
-  "source": "https://searchable.com/pricing",
-  "checked": "2026-10-26"
+  "price": "Pro $125/mo billed monthly ($100/mo billed annually, $1,200/yr)",
+  "engines": "ChatGPT, AI Overviews, Perplexity (+ paid add-ons: Copilot, DeepSeek, AI Mode, Gemini, Grok, Claude, Meta Muse)",
+  "source": "https://www.searchable.com/pricing",
+  "checked": "2026-10-27"
  },
  {
   "name": "LLMrefs",
