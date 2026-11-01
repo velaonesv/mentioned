@@ -42,26 +42,26 @@ const TOOLS=[
  {
   "name": "Peec AI",
   "url": "https://peec.ai",
-  "price": "$95/mo ($80 annual)",
+  "price": "Starter $95/mo billed monthly (50 prompts)",
   "engines": "Choose 3 of ChatGPT, AI Mode, AI Overviews, Copilot, Gemini, Naver AI",
-  "source": "https://arobis.ai/blog/17-best-ai-visibility-tools",
-  "checked": "2026-10-12"
+  "source": "https://peec.ai/pricing",
+  "checked": "2026-11-01"
  },
  {
   "name": "AthenaHQ",
   "url": "https://www.athenahq.ai",
-  "price": "Free plan; Starter $295/mo",
-  "engines": "11 models",
-  "source": "https://arobis.ai/blog/17-best-ai-visibility-tools",
-  "checked": "2026-10-12"
+  "price": "Free plan; Starter $295/mo billed monthly",
+  "engines": "ChatGPT, Perplexity, AI Overviews, AI Mode, Gemini, Claude, Copilot, Grok and more",
+  "source": "https://www.athenahq.ai/pricing",
+  "checked": "2026-11-01"
  },
  {
   "name": "Scrunch",
   "url": "https://scrunch.com",
-  "price": "$250/mo",
-  "engines": "Copilot, AI Overviews, Perplexity, ChatGPT (Core)",
-  "source": "https://arobis.ai/blog/17-best-ai-visibility-tools",
-  "checked": "2026-10-12"
+  "price": "Core $250/mo",
+  "engines": "ChatGPT, Perplexity, AI Overviews, Copilot (Core; 9 LLMs on Enterprise)",
+  "source": "https://scrunch.com/pricing",
+  "checked": "2026-11-01"
  },
  {
   "name": "Evertune",
@@ -194,10 +194,10 @@ const TOOLS=[
  {
   "name": "Gauge",
   "url": "https://www.withgauge.com",
-  "price": "From $599/mo",
-  "engines": "7 AI engines",
-  "source": "https://geodeck.io/",
-  "checked": "read 2026-10-14"
+  "price": "Growth $599/mo (600 prompts, daily)",
+  "engines": "ChatGPT, AI Mode, Copilot (Growth; 6 core platforms on Enterprise)",
+  "source": "https://www.withgauge.com/pricing",
+  "checked": "2026-11-01"
  },
  {
   "name": "Rankability",
