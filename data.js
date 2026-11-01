@@ -226,10 +226,10 @@ const TOOLS=[
  {
   "name": "Geoptie",
   "url": "https://geoptie.com",
-  "price": "$41/mo billed annually ($490/yr)",
+  "price": "$49/mo billed monthly, or $41/mo billed annually ($490/yr)",
   "engines": "Any 4 of 7: ChatGPT, Claude, Perplexity, Gemini, Copilot, AI Mode, AI Overviews",
   "source": "https://geoptie.com/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-11-01"
  },
  {
   "name": "HubSpot AEO Grader",
