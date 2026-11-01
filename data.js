@@ -34,10 +34,10 @@ const TOOLS=[
  {
   "name": "Goodie AI",
   "url": "https://higoodie.com",
-  "price": "$399/mo",
-  "engines": "5 models at entry (up to 13)",
-  "source": "https://arobis.ai/blog/17-best-ai-visibility-tools",
-  "checked": "2026-10-12"
+  "price": "Core $354/mo billed monthly, or $295/mo billed annually ($3,540/yr)",
+  "engines": "5 models on Core (8 on Pro, up to 14 on Enterprise)",
+  "source": "https://higoodie.com/pricing/",
+  "checked": "2026-11-01"
  },
  {
   "name": "Peec AI",
@@ -261,7 +261,7 @@ const TOOLS=[
   "price": "Free plan; Starter $19/mo",
   "engines": "ChatGPT, Perplexity, Gemini, Claude (prompt tracking); GEO score across 6 engines",
   "source": "https://onxeera.com/pricing/",
-  "checked": "2026-10-19"
+  "checked": "2026-11-01"
  },
  {
   "name": "Contentstack Canoe",
