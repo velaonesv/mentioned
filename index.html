@@ -26,4 +26,4 @@ button{padding:10px 16px;border:0;border-radius:8px;background:#111;color:#fff;c
 const L=document.getElementById('list');let key='name';
 function r(){const q=document.getElementById('q').value.toLowerCase();L.innerHTML=TOOLS.filter(t=>(t.name+t.price+t.engines).toLowerCase().includes(q)).sort((a,b)=>a[key].localeCompare(b[key])).map(t=>`<tr><td><a href="${t.url}" target="_blank" rel="noopener">${t.name}</a></td><td>${t.price}</td><td>${t.engines}</td><td class="src">${t.checked}<br><a href="${t.source}" target="_blank" rel="noopener">${new URL(t.source).hostname}</a></td></tr>`).join('')}
 document.getElementById('q').oninput=r;document.querySelectorAll('th[data-k]').forEach(h=>h.onclick=()=>{key=h.dataset.k;r()});r();
-</script></body></html>
+</script><script data-goatcounter="https://mentionedprices.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
