@@ -13,7 +13,7 @@ const TOOLS=[
   "price": "$39/mo (2,400 answers)",
   "engines": "17 platforms incl. ChatGPT, Perplexity, Gemini, AI Overviews, Claude, Copilot, Grok, DeepSeek",
   "source": "https://zerorank.ai/pricing",
-  "checked": "2026-10-26"
+  "checked": "2026-11-02"
  },
  {
   "name": "Ahrefs Brand Radar",
@@ -66,10 +66,10 @@ const TOOLS=[
  {
   "name": "Evertune",
   "url": "https://www.evertune.ai",
-  "price": "$800/mo",
-  "engines": "11 models (not named)",
-  "source": "https://arobis.ai/blog/17-best-ai-visibility-tools",
-  "checked": "2026-10-12"
+  "price": "Starter $60/mo billed annually (5,000 prompt credits; ChatGPT ads run at 10% of media spend); Pro $800/mo billed annually",
+  "engines": "Starter: up to 5 models; Pro: 11 models",
+  "source": "https://www.evertune.ai/pricing",
+  "checked": "2026-11-02"
  },
  {
   "name": "Semrush AI Visibility Toolkit",
@@ -157,7 +157,7 @@ const TOOLS=[
   "price": "From $25.65/mo billed monthly (Starter preset: 30 daily prompts, 3 engines; usage-based; annual billing -20% on prompts)",
   "engines": "ChatGPT, AI Overviews, Perplexity, AI Mode, Copilot, Bing AI Overview, Gemini",
   "source": "https://ziptie.ai/pricing/",
-  "checked": "2026-10-23"
+  "checked": "2026-11-02"
  },
  {
   "name": "Similarweb",
@@ -205,7 +205,7 @@ const TOOLS=[
   "price": "$97/mo billed monthly",
   "engines": "11: ChatGPT, AI Mode, AI Overviews, Claude, Perplexity, Gemini, Grok, Copilot, Brave AI, DeepSeek, Meta AI",
   "source": "https://www.rankability.com/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-11-02"
  },
  {
   "name": "Bluefish AI",
@@ -245,7 +245,7 @@ const TOOLS=[
   "price": "$39/mo billed yearly ($49 month to month)",
   "engines": "Starter: ChatGPT, Google AI (Perplexity on Professional; Claude, Gemini on Scale)",
   "source": "https://www.frase.io/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-11-02"
  },
  {
   "name": "Kradeos",
@@ -253,7 +253,7 @@ const TOOLS=[
   "price": "Free plan (10 prompts); Starter £49/mo",
   "engines": "ChatGPT, Gemini, AI Overviews (Claude, Perplexity, AI Mode on £149/mo Compete)",
   "source": "https://kradeos.ai/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-11-02"
  },
  {
   "name": "Onxeera",
@@ -269,7 +269,7 @@ const TOOLS=[
   "price": "Free plan (1 brand, 20 prompts/mo); Growth $279/mo or $2,790/yr (limited-time launch price)",
   "engines": "Free: ChatGPT, Gemini; Growth: ChatGPT, Gemini, Perplexity, Claude",
   "source": "https://canoe.contentstack.com/pricing/",
-  "checked": "2026-10-26"
+  "checked": "2026-11-02"
  },
  {
   "name": "geoSurge",
@@ -278,5 +278,29 @@ const TOOLS=[
   "engines": "ChatGPT, Claude, Gemini (early support)",
   "source": "https://geosurge.ai/",
   "checked": "2026-10-26"
+ },
+ {
+  "name": "Kollavo",
+  "url": "https://kollavo.com",
+  "price": "Entry $49/mo (self-serve monitoring); Managed $99/mo; 2 months free yearly",
+  "engines": "ChatGPT, Gemini, Google AI Mode",
+  "source": "https://kollavo.com/pricing",
+  "checked": "2026-11-02"
+ },
+ {
+  "name": "RankCaster AI",
+  "url": "https://rankcaster.ai",
+  "price": "Starter $125/mo (30 prompts); Growth $349/mo",
+  "engines": "Starter: ChatGPT, Claude, AI Overviews; Growth: + Gemini, DeepSeek, Perplexity",
+  "source": "https://rankcaster.ai/pricing",
+  "checked": "2026-11-02"
+ },
+ {
+  "name": "PilotDeck",
+  "url": "https://pilotdeck.co",
+  "price": "Base $97/mo ($81/mo billed annually), AI content platform with LLM brand visibility; 7-day free trial",
+  "engines": "ChatGPT, Perplexity",
+  "source": "https://pilotdeck.co/pricing",
+  "checked": "2026-11-02"
  }
 ];
