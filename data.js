@@ -5,7 +5,7 @@ const TOOLS=[
   "price": "Custom (Enterprise); free 7-day trial",
   "engines": "Up to 9 engines (Enterprise); trial: ChatGPT, Gemini, AI Overviews",
   "source": "https://www.tryprofound.com/pricing",
-  "checked": "2026-10-19"
+  "checked": "2026-11-09"
  },
  {
   "name": "ZeroRank",
@@ -61,7 +61,7 @@ const TOOLS=[
   "price": "Core $250/mo",
   "engines": "ChatGPT, Perplexity, AI Overviews, Copilot (Core; 9 LLMs on Enterprise)",
   "source": "https://scrunch.com/pricing",
-  "checked": "2026-11-01"
+  "checked": "2026-11-09"
  },
  {
   "name": "Evertune",
@@ -302,5 +302,21 @@ const TOOLS=[
   "engines": "ChatGPT, Perplexity",
   "source": "https://pilotdeck.co/pricing",
   "checked": "2026-11-02"
+ },
+ {
+  "name": "Prompted Brand",
+  "url": "https://promptedbrand.com",
+  "price": "From $119/mo (per Nov 5 launch release); 7-day free trial, no card",
+  "engines": "Up to 9: ChatGPT, AI Overviews, AI Mode, Gemini, Perplexity, Claude, Copilot, Meta AI, DeepSeek",
+  "source": "https://www.businesswire.com/news/home/20261105970610/en/Prompted-Brand-Launches-to-Show-Companies-What-AI-Engines-Say-About-Them-and-What-to-Do-to-Win-Those-Answers",
+  "checked": "2026-11-09"
+ },
+ {
+  "name": "Writesonic",
+  "url": "https://writesonic.com",
+  "price": "Starter $79/mo billed annually (50 prompts); Basic $199; Growth $399",
+  "engines": "Starter-Growth: ChatGPT, Gemini, AI Overviews; 9 platforms on Enterprise",
+  "source": "https://writesonic.com/pricing",
+  "checked": "2026-11-09"
  }
 ];
